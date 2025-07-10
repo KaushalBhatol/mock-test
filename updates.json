@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Critical Patch Deployed",
+    "description": "Security patch applied to all production servers. No downtime reported.",
+    "team": "Security",
+    "time": "2025-07-08",
+    "important": true,
+    "expiresAt": "",
+    "linked": [
+      {
+        "name": "db-primary-01",
+        "type": "Application"
+      },
+      {
+        "name": "db-primary-01",
+        "type": "Database"
+      }
+    ]
+  },
+  {
+    "title": "Database Upgrade Scheduled",
+    "description": "Primary DB will be upgraded to v13.2 at 2:00 AM UTC. Expect 5 min downtime.",
+    "team": "Infra",
+    "time": "2025-07-10",
+    "important": true,
+    "expiresAt": "2025-07-11",
+    "linked": [
+      {
+        "name": "db-primary-02",
+        "type": "Database"
+      }
+    ]
+  },
+  {
+    "title": "API Cache Optimized",
+    "description": "API response time improved by 12% after cache tuning.",
+    "team": "DevOps",
+    "time": "2025-07-10",
+    "important": false,
+    "expiresAt": "2025-07-20"
+  },
+  {
+    "title": "Plugin Installed",
+    "description": "New plugin 'Slack Notifier' installed.",
+    "team": "Product",
+    "time": "2025-07-10",
+    "important": false,
+    "expiresAt": "2025-07-18"
+  },
+  {
+    "title": "Cache Memory Fixed",
+    "description": "Resolved: High memory usage on cache-server-03.",
+    "team": "Infra",
+    "time": "2025-07-10",
+    "important": false,
+    "expiresAt": "2025-07-05"
+  }
+]
