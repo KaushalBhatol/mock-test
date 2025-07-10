@@ -1,22 +1,27 @@
 [
-    {
-    "title": "Server Upgrading. Ignore Alerts",
-    "description": "Please ignore server related alerts for parkar-main. As we are upgrading",
-    "team": "Infra",
-    "time": "2025-07-10",
-    "important": true,
-    "linked": [
-      {
-        "name": "db-primary-02",
-        "type": "Database"
-      }
-    ]
-  },
   {
     "title": "Critical Patch Deployed",
     "description": "Security patch applied to all production servers. No downtime reported.",
     "team": "Security",
     "time": "2025-07-08",
+    "important": true,
+    "expiresAt": "",
+    "linked": [
+      {
+        "name": "db-primary-01",
+        "type": "Application"
+      },
+      {
+        "name": "db-primary-01",
+        "type": "Database"
+      }
+    ]
+  },
+  {
+    "title": "Ignore OSI Server Alerts!",
+    "description": "Please Ignore the alerts, as we are upgrading the server",
+    "team": "Infra",
+    "time": "2025-07-10",
     "important": true,
     "expiresAt": "",
     "linked": [
